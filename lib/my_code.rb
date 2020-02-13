@@ -16,4 +16,6 @@ def map_to_square(arr)
   return arr.map(|num| num*num)
 end
 
+def reduce_to_total 
+
 def 
