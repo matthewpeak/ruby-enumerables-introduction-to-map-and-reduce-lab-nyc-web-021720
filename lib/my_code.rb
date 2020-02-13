@@ -13,7 +13,7 @@ def map_to_double(arr)
 end
 
 def map_to_square(arr)
-  return arr.map(|num| num*num)
+  return arr.map{|num| num*num}
 end
 
 def reduce_to_total(arr, starting_point )
