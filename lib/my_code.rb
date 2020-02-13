@@ -9,7 +9,7 @@ def map_to_no_change(arr)
 end
 
 def map_to_double(arr)
-  return arr.map{|num|*2}
+  return arr.map{|num|num*2}
 end
 
 def map_to_square(arr)
