@@ -5,7 +5,7 @@ def map_to_negativize(arr)
 end
 
 def map_to_no_change(arr)
-  return arr.map{|num|}
+  return arr.map{|num|num}
 end
 
 def map_to_double(arr)
