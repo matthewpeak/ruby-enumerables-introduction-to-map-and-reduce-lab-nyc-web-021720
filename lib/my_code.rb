@@ -21,9 +21,9 @@ def reduce_to_total(arr)
 end
 
 def reduce_to_all_true(arr)
-  return arr.reduce(|num|)
+  return arr.reduce(|sum,num|)
 end
   
 def reduce_to_any_true(arr)
-  return arr.reduce(|num|)
+  return arr.reduce(|sum,num|)
 end
