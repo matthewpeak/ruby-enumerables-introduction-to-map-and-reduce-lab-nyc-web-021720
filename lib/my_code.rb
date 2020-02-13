@@ -18,4 +18,6 @@ end
 
 def reduce_to_total 
 
+def reduce_to_all_true
+  
 def 
